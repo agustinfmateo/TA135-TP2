@@ -1,0 +1,45 @@
+# ==========================================
+# Arduino
+# ==========================================
+# Archivos de compilación y binarios
+*.hex
+*.elf
+*.bin
+build/
+
+# Configuración local de IDEs (opcional)
+.vscode/
+.idea/
+
+
+# ==========================================
+# MATLAB
+# ==========================================
+# Archivos temporales, autosaves y registros
+*.asv
+*.m~
+*.fda
+*.fig~
+*.log
+*.mat~
+slprj/
+
+# Preferencias y caché local
+mex*
+*.mex*
+History.xml
+
+
+# ==========================================
+# Simulink
+# ==========================================
+# Copias de seguridad y código generado por Simulink Coder / Embedded Coder
+*.slx~
+*.mdl~
+*_grt_rtw/
+*_ert_rtw/
+html/
+
+# Caché de modelos e imágenes generadas
+*.slxc
+*.pdf
